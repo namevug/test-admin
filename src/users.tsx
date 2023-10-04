@@ -14,7 +14,7 @@ export const UserList = () => {
                     tertiaryText={(record) => record.email}
                 />
             ) : (
-                <Datagrid rowClick="edit">
+                <Datagrid rowClick="show">
                     <TextField source="id" />
                     <EmailField source="email" />
                     <TextField source="phone" />
